@@ -1,14 +1,14 @@
-import { useState } from "react"
-import { Presentation } from "./components/Presentation"
-import { Transition } from "./components/Transition"
-import { Question } from "./components/Question"
-import { questions } from "./data"
+// import { useState } from "react"
+// import { Presentation } from "./components/Presentation"
+// import { Transition } from "./components/Transition"
+// import { Question } from "./components/Question"
+// import { questions } from "./data"
 import "./App.css"
 
-type Screen =
-  | { type: "presentation" }
-  | { type: "transition"; title: string; text: string }
-  | { type: "question"; index: number }
+// type Screen =
+//   | { type: "presentation" }
+//   | { type: "transition"; title: string; text: string }
+//   | { type: "question"; index: number }
 
 function App() {
   // const [screen, setScreen] = useState<Screen>({ type: "presentation" })
