@@ -6,6 +6,7 @@ export type AnswerOption = {
 export type Question = {
   id: string
   question: string
+  img?: string
   options: AnswerOption[]
   correctAnswers: string[]
   allowMultiple: boolean
